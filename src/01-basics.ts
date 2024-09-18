@@ -12,9 +12,6 @@ const friend2 = {
   age: 31,
 };
 
-export const friends = [friend1, friend2];
-// console.log(friends[1]);
-
 //   -------------------
 const colleague1 = {
   name: "Ralph Graham",
@@ -47,5 +44,7 @@ export const colleagues : ColleagueHistory = {
     current: [colleague1, colleague2, colleague3],
     former: [],
   };
+
+export const friends = [friend1, friend2];
 
 // console.log(colleagues.current[0]);
