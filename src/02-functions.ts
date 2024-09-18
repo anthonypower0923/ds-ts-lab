@@ -26,6 +26,19 @@ function addColleague(arr: Colleague[],nm: string, dp: string, em: string) {
     arr.push(colleague)
 }
 
+function addInterest(friend: Friend, interest: string[]){
+    const newFriend = {
+        name: friend.name,
+        phone: friend.phone,
+        age: friend.age,
+        dob: friend.dob ,
+        interests: interest
+        }
+        console.log(newFriend)
+    }
+
+console.log(addInterest(friends[0], ['Politics']))
+
 // Find the colleague with the highest extension number.
 function highestExtension(cs: Colleague[]) { // Inferred retun type
     const result = cs.sort(
